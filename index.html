@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+    <title>Streaming</title>
+  </head>
+  <body>
+    <header>
+      <h1>LOGO</h1>
+      <form action="javascript:" onsubmit="doSearch()">
+        <input type="text" placeholder="Search.." name="search" />
+        <button type="submit">Submit</button>
+      </form>
+      <nav></nav>
+    </header>
+    <main>
+      <section id="discover">
+        <h2>Discover</h2>
+        <div id="genre-box" class="genre-display flex"></div>
+      </section>
+      <section id="movies">
+        <h2>Movies</h2>
+        <div id="movie-box" class="movie-display grid"></div>
+        <a>See more</a>
+      </section>
+      <section id="shows" class="flex">
+        <h2>Shows</h2>
+        <div id="show-box" class="show-display grid"></div>
+        <a>See more</a>
+      </section>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+  <script src="./js/home.js"></script>
+</html>

@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Show Page</title>
+  </head>
+  <body>
+    <main>
+      <section id="show-header"></section>
+      <section id="show-body">
+        <div class="season-container">
+          <select
+            name="select-seasons"
+            id="select-seasons"
+            onchange="populateShowEpisodes(value)"
+          ></select>
+          <div class="ep-container">
+            <ul id="ep-list"></ul>
+          </div>
+        </div>
+      </section>
+      <section id="show-frame"></section>
+    </main>
+  </body>
+  <script src="./js/main.js"></script>
+  <script src="./js/show_page.js"></script>
+</html>
