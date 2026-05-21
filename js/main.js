@@ -16,7 +16,7 @@ fetch("https://api.themoviedb.org/3/authentication", requestOptions)
   })
   .catch((err) => console.error(err));
 
-const pageBackdropUrl = "https://image.tmdb.org/t/p/w500";
+const pageBackdropUrl = "https://image.tmdb.org/t/p/original";
 const pagePosterUrl = "https://image.tmdb.org/t/p/w300";
 const posterUrl = "https://image.tmdb.org/t/p/w100";
 const stillUrl = "https://image.tmdb.org/t/p/w200";

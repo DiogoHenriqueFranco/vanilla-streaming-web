@@ -42,10 +42,10 @@ const populateMoviePage = (data) => {
   //makeFrame();
 };
 
-const makeFrame = (service = "7xstream") => {
+const makeFrame = (service = "vidup") => {
   const frameContent = `        
-    <button onclick="makeFrame('7xstream')">7xstream</button>
     <button onclick="makeFrame('vidup')">vidup</button>
+    <button onclick="makeFrame('7xstream')">7xstream</button>
     <iframe
         src="${getEmbedUrl(service)}"
         frameborder="0"

@@ -69,7 +69,7 @@ const populateDiscoverMovies = (data) => {
     .map((movie) => {
       return `
       <div class="card">
-        <a href="./movie_page.html?id=${movie.id}">
+        <a href="./watch.html?type=movie&id=${movie.id}">
           <img src="${pagePosterUrl}${movie.poster}" alt="show poster" class="flex">
           <h3 class="movie-title flex">${movie.title}</h3>
         </a>
@@ -119,7 +119,7 @@ const populateDiscoverShows = (data) => {
     .map((show) => {
       return `
       <div class="card">
-        <a href="./show_page.html?id=${show.id}">
+        <a href="./watch.html?type=tv&id=${show.id}">
           <img src="${pagePosterUrl}${show.poster}" alt="show poster" class="flex">
           <h3 class="flex">${show.title}</h3>
         </a>
